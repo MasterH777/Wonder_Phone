@@ -1,0 +1,430 @@
+body {
+    
+    margin: 0;
+}
+header {
+/*Фон сайта*/
+/*
+    background-image: url(icon-5.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+*/
+    background: linear-gradient(135deg, #59c7e8, #eebeff, rgba(211, 162, 226, 0.72), #94afef, #de9090, rgba(252, 188, 86, 0.58));
+}     
+.header {
+    width: 100%;
+    display: flex;
+}
+
+ 
+.title {
+    
+/*    justify-content: flex-end;*/
+/*    text-align: center;*/
+    font-size: 42px;
+    margin-top: 160px;
+    font-family: Lobster, sans-serif;
+    width: 500px;
+    height: 200px;
+    line-height: 40px;
+    margin-left: 80px;
+/*    padding: 150px 200px;*/
+    text-shadow: 1px 5px 5px rgb(101, 101, 101);
+}
+.Wonder-Phone {
+    font-family: Train One;
+    font-size: 42px;
+    text-decoration: underline;
+    color: rgba(93, 93, 93, 0.83);
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flex;
+    height: 110px;
+    width: 430px;
+    text-transform: uppercase;
+    transition-duration: 1s;
+}
+.Wonder-Phone:hover{
+    color: #ffc474;
+}
+.main { 
+    display: inline-block;
+    display: flex;
+    
+}
+
+
+.PHOTO {
+    width: 805px;
+    margin-top: 115px;
+    margin-left: 0px;
+    display: flex;
+}
+.profile {
+    text-decoration: none;
+    color: rgba(93, 93, 93, 0.83);
+    font-family: Merriweather;
+    margin-top: -80px;
+    display: flex;
+    height: auto;
+    width: 250px;
+    font-size: 24px;
+    margin-left: 1280px;
+    width: auto;
+    height: auto;
+}
+.profile:hover {
+    color: aliceblue;
+}
+.more {
+    margin-top: 30px;
+    margin-left: 150px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: #ffc474;
+    border-radius: 30px;
+    display: flex;
+    height: auto;
+    width: 250px;
+    font-size: 30px;
+    font-family: Marck Script;
+    justify-content: center;
+    transition-duration: 2s;
+    transition-property: all;
+    animation-iteration-count: infinite;
+    animation-name: myAnimation;
+    animation-duration: 5s;
+}
+
+.more:hover {
+    
+    transform:scale(1.2);
+}
+
+.o_nas{
+    
+    text-decoration: none;
+    color: rgba(93, 93, 93, 0.83);
+    font-family: Merriweather;
+    margin-top: -30px;
+    display: flex;
+    height: auto;
+    width: 250px;
+    font-size: 24px;
+    margin-left: 865px;
+    width: 66px;
+    height: auto;
+}
+
+.o_nas:hover {
+    color: aliceblue;
+}
+.contact {    
+    text-decoration: none;
+    color: rgba(93, 93, 93, 0.83);
+    font-family: Merriweather;
+    margin-top: -30px;
+    display: flex;
+    height: auto;
+    width: 250px;
+    font-size: 24px;
+    margin-left: 1110px;
+    width: 125px;
+    height: auto;
+}
+.contact:hover {
+    color: aliceblue;
+}
+.stocks {
+    text-decoration: none;
+    color: rgba(93, 93, 93, 0.83);
+    font-family: Merriweather;
+    margin-top: -30px;
+    display: flex;
+    height: auto;
+    width: 250px;
+    font-size: 24px;
+    margin-left: 980px;
+    width: 82px;
+    height: auto;
+}
+.stocks:hover {
+    color: aliceblue;
+}
+
+@keyframes myAnimation {
+    from{
+        background-color: #ffc474;
+    }
+    
+     50% {
+         background-color: #ff9403;
+         transform:scale(1.3);
+    }
+    
+    to{
+        background-color: #ffc474;
+    }
+    
+    
+}
+
+.page-2{
+    display: flex;
+    
+}
+.text-1 {
+    font-size: 44px;
+    margin-top: 30px;
+    margin-left: 130px;
+    font-family: Cormorant Unicase; 
+    width: 650px;
+    height: 110px;
+}
+.text-2 {
+    font-family: Shantell Sans;
+    margin-top: 100px;
+    width: 600px;
+    height: 270px;
+    font-size: 26px;
+    border: 7px dashed black;
+    background-color: rgba(255, 196, 116, 0);
+    justify-content: center;
+    padding: 20px;
+    border-radius: 40px;
+    
+}
+.text-3 {
+    font-family:Caveat;
+    margin-top: 20px;
+    margin-left: 90px;
+    width: 650px;
+    height: 270px;
+    font-size: 30px;
+    border: 10px outset black;
+    background-color: rgba(203, 152, 84, 0);
+    justify-content: center;
+    padding: 20px;
+    border-radius: 40px;
+}
+.photo-2 {
+    margin-top: -20px;
+    height: 250px;
+    margin-left: 220px;
+}
+.photo-3 {
+    height: 350px;
+    margin-left: 180px;
+}
+.page-3 {
+    display: flex;
+}
+.text-4 {
+    font-size: 44px;
+    margin-top: 30px;
+    margin-left: 430px;
+    font-family: Bad Script; 
+    width: 650px;
+    height: 110px;
+    text-align:center;
+}
+.logotips-1{
+    display: flex;
+}
+.Slogo{
+    width: 200px;
+    margin-left: 150px;
+}
+.Alogo{
+    width: 100px;
+    height: 100px;
+    margin-left: 120px;
+    margin-top: 45px;
+}
+.Hlogo{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.Xlogo{
+    width: 100px;
+    height: 100px;
+    margin-top: 45px;
+    margin-left: 120px;
+}
+.Rlogo{
+     width: 220px;
+    height: 60px;
+    margin-left: 120px;
+    margin-top: 65px;
+}
+.logotips-2{
+    display: flex;
+}
+.Honorlogo{
+    width: 200px;
+    height: 110px;
+    margin-left: 300px;
+}
+.Ologo{
+    width: 170px;
+    height: 40px;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.Vlogo{
+    width: 150px;
+    margin-left: 70px;
+    margin-top: -25px;
+}
+.OnePluslogo {
+    width: 90px;
+    height: 90px;
+    margin-left: 70px;
+}
+.page-4{
+    height: 450px;
+    width: auto;
+/*    display: flex;*/
+    
+}
+.vibor{
+    display:flex;
+    width: auto;
+    height: 300px;
+}
+.text-5{
+    font-size: 44px;
+    margin-top: 30px;
+    margin-left: 150px;
+    font-family: Rubik Doodle Shadow;
+    width: 1200px;
+    height: 110px;
+}
+.text-6{
+    font-family:Caveat;
+    font-size: 36px;
+    width: 350px;
+    height: 200px;
+    color: black;
+    border: 10px double black;
+    background-color: #daccff;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 40px;
+    text-align: center;
+}
+.a-6{
+    text-decoration: none;
+   
+}
+.text-6-2{
+    font-size: 24px;
+    text-align: left;
+}
+.vibor-1{
+    width: 400px;
+    height: 70px;
+    margin-top: 0px;
+    margin-left: 80px;
+    transition-duration: 1s;
+}
+.vibor-1:hover {
+    
+    transform:scale(1.2);
+}
+.text-7{
+    font-family:Caveat;
+    width: 350px;
+    height: 200px;
+    font-size: 36px;
+    color: black;
+    border: 10px double black;
+    background-color: #daccff;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 40px;
+    text-align: center;
+}
+.a-7{
+    text-decoration: none;
+}
+.text-7-2{
+    font-size: 24px;
+    text-align: left;
+}
+.vibor-2{
+    width: 400px;
+    height: 70px;
+    margin-top: 0px;
+    margin-left: 70px;
+    transition-duration: 1s;
+}
+.vibor-2:hover {
+    
+    transform:scale(1.2);
+}
+.text-8{
+   font-family:Caveat;
+    width: 350px;
+    height: 200px;
+    font-size: 36px;
+    color: black;
+    border: 10px double black;
+    background-color: #daccff;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 40px;
+    text-align: center;
+}
+.a-8{
+    text-decoration: none;
+}
+.text-8-2{
+    font-size: 24px;
+    text-align: left;
+}
+.vibor-3{
+    width: 400px;
+    height: 70px;
+    margin-top: 0px;
+    margin-left: 70px;
+    transition-duration: 1s;
+}
+.vibor-3:hover {
+    
+    transform:scale(1.2);
+}
+.page-5 {
+    width: auto;
+    height: 150px;
+    background: rgba(0, 0, 0, 0.72);
+/*    display: flex;*/
+}
+.cont{
+    display: flex;
+}
+.text-9 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 80px;
+    color: #969696;
+}
+.text-10{
+    color: #969696;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.mail{
+    color: #969696;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.copyright{
+    color: #969696;
+    margin-top: 25px;
+    margin-left: 700px; 
+}
