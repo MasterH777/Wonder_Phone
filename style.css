@@ -11,6 +11,7 @@ header {
     width: 100%;
 */
     background: linear-gradient(135deg, #59c7e8, #eebeff, rgba(211, 162, 226, 0.72), #94afef, #de9090, rgba(252, 188, 86, 0.58));
+    min-width: 1370px;
 }     
 .header {
     width: 100%;
