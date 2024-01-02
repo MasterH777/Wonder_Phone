@@ -894,6 +894,9 @@ body {
     .Wonder-Phone{
         font-size: 150%;
     }
+    .PHOTO{
+        width: 355px;
+        height: 315px;
 }
 @media screen and (max-width: 425px) {
     .Wonder-Phone{
