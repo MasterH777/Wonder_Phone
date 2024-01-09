@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(135deg, #59c7e8, #eebeff, rgba(211, 162, 226, 0.72), #94afef, #de9090, rgba(252, 188, 86, 0.58));
+    margin: 0;
+    height: auto;
+}
+.Wonder-Phone{
+    font-family: Train One ;
+    text-decoration: none;
+    color: black;
+    transition-duration: 1s;
+}
+.h{
+    width: 200px;
+    word-wrap: break-word; 
+}
+.navbar-nav{
+    font-family: Merriweather;
+    color: rgba(93, 93, 93, 0.83);
+}
+.dropdown-item {
+    font-family:monospace;
+}
+/*#ms-5*/
+.Wonder-Phone:hover{
+    color: #ffc474;
+}
