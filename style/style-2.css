@@ -1,7 +1,7 @@
 body {
     background: linear-gradient(135deg, #59c7e8, #eebeff, rgba(211, 162, 226, 0.72), #94afef, #de9090, rgba(252, 188, 86, 0.58));
     margin: 0;
-    height: auto;
+    height: 100vh;
 }
 .Wonder-Phone{
     font-family: Train One ;
@@ -23,4 +23,11 @@ body {
 /*#ms-5*/
 .Wonder-Phone:hover{
     color: #ffc474;
+}
+.stocks{
+
+    font-family: Lobster, sans-serif;
+}
+.,argin{
+    margin-top: 50px;
 }
